@@ -1,0 +1,86 @@
+{
+    "molssi_bse_schema": {
+        "schema_type": "complete",
+        "schema_version": "0.1"
+    },
+    "revision_description": "Data from Gaussian09",
+    "revision_date": "2018-06-19",
+    "elements": {
+        "1": {
+            "electron_shells": [
+                {
+                    "function_type": "gto",
+                    "region": "",
+                    "angular_momentum": [
+                        0
+                    ],
+                    "exponents": [
+                        "0.3425250914E+01",
+                        "0.6239137298E+00",
+                        "0.1688554040E+00"
+                    ],
+                    "coefficients": [
+                        [
+                            "0.1543289673E+00",
+                            "0.5353281423E+00",
+                            "0.4446345422E+00"
+                        ]
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "reference_description": "STO-3G Minimal Basis (3 functions/AO)",
+                    "reference_keys": [
+                        "hehre1969a"
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "electron_shells": [
+                {
+                    "function_type": "gto",
+                    "region": "",
+                    "angular_momentum": [
+                        0
+                    ],
+                    "exponents": [
+                        "0.6362421394E+01",
+                        "0.1158922999E+01",
+                        "0.3136497915E+00"
+                    ],
+                    "coefficients": [
+                        [
+                            "0.1543289673E+00",
+                            "0.5353281423E+00",
+                            "0.4446345422E+00"
+                        ]
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "reference_description": "STO-3G Minimal Basis (3 functions/AO)",
+                    "reference_keys": [
+                        "hehre1969a",
+                        "hehre1970a"
+                    ]
+                }
+            ]
+        }
+    },
+    "version": "1",
+    "function_types": [
+        "gto"
+    ],
+    "names": [
+        "STO-3G"
+    ],
+    "tags": [],
+    "family": "sto",
+    "description": "STO-3G Minimal Basis (3 functions/AO)",
+    "role": "orbital",
+    "auxiliaries": {},
+    "name": "STO-3G"
+}
